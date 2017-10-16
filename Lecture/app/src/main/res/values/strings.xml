@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">Lecture</string>
+    <string name="app_title">KNU 강의 정보 시스템</string>
+    <string name="app_search_title">KNU 강의 정보 검색</string>
+
+
+    <!-- Schedule -->
+    <string-array name="days_5">
+        <item>월</item>
+        <item>화</item>
+        <item>수</item>
+        <item>목</item>
+        <item>금</item>
+    </string-array>
+    <string-array name="days_6">
+        <item>월</item>
+        <item>화</item>
+        <item>수</item>
+        <item>목</item>
+        <item>금</item>
+        <item>토</item>
+    </string-array>
+    <string-array name="days_7">
+        <item>월</item>
+        <item>화</item>
+        <item>수</item>
+        <item>목</item>
+        <item>금</item>
+        <item>토</item>
+        <item>일</item>
+    </string-array>
+    <string-array name="time_title">
+        <item>1A</item>
+        <item>1B</item>
+        <item>2A</item>
+        <item>2B</item>
+        <item>3A</item>
+        <item>3B</item>
+        <item>4A</item>
+        <item>4B</item>
+        <item>5A</item>
+        <item>5B</item>
+        <item>6A</item>
+        <item>6B</item>
+        <item>7A</item>
+        <item>7B</item>
+        <item>8A</item>
+        <item>8B</item>
+        <item>9A</item>
+        <item>9B</item>
+        <item>10A</item>
+        <item>10B</item>
+        <item>11A</item>
+        <item>11B</item>
+        <item>12A</item>
+        <item>12B</item>
+        <item>13A</item>
+        <item>13B</item>
+        <item>14A</item>
+    </string-array>
+    <string-array name="time">
+        <item>9:00~9:30</item>
+        <item>9:30~10:00</item>
+        <item>10:00~10:30</item>
+        <item>10:30~11:00</item>
+        <item>11:00~11:30</item>
+        <item>11:30~12:00</item>
+        <item>12:00~12:30</item>
+        <item>12:30~13:00</item>
+        <item>13:00~13:30</item>
+        <item>13:30~14:00</item>
+        <item>14:00~14:30</item>
+        <item>14:30~15:00</item>
+        <item>15:00~15:30</item>
+        <item>15:30~16:00</item>
+        <item>16:00~16:30</item>
+        <item>16:30~17:00</item>
+        <item>17:00~17:30</item>
+        <item>17:30~18:00</item>
+        <item>18:00~18:30</item>
+        <item>18:30~19:00</item>
+        <item>19:00~19:30</item>
+        <item>19:30~20:00</item>
+        <item>20:00~20:30</item>
+        <item>20:30~21:00</item>
+        <item>21:00~21:30</item>
+        <item>21:30~22:00</item>
+        <item>22:00~22:30</item>
+    </string-array>
+
+
+    <string-array name="time_08_19">
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+    </string-array>
+    <string-array name="time_08_18">
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+    <string-array name="time_08_17">
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+    </string-array>
+    <string-array name="time_08_16">
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+    <string-array name="time_08_15">
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="time_08_14">
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+    </string-array>
+    <string-array name="time_08_13">
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+    </string-array>
+</resources>

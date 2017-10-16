@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.commin.pro.gangwon">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAr_nthzftv4dIHzEKNrRonVl7SLiXvULs" />
+
+        <activity
+            android:name=".Application"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".page.home.Page2Home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page.energy.Page2Energy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page.development.Page2Development"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page.map.Page2Map"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page.webview.Page2WebView"
+            android:screenOrientation="portrait" />
+        <activity android:name=".page.company.Page2Company"></activity>
+    </application>
+
+</manifest>

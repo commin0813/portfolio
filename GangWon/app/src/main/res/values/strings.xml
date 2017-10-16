@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GangWon</string>
+    <string name="title_name">강원도</string>
+    <string name="menu_name">전체메뉴</string>
+</resources>

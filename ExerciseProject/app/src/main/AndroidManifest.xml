@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.commin.pro.exerciseproject">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Application"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".page.calendar.Page2Calendar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page.calendar_view.Page2CalendarView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page.do_excercise_beginner.Page2DoExcerciseBegin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page.game.Page2Game"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".page.menu_list.Page2MenuList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page.photo.Page2Photo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page.do_excercise_expert.Page2DoExcerciseExpert"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page.photo_edit.Page2PhotoEdit"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

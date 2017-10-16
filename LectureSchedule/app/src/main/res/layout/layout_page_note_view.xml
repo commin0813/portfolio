@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- top -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorGrayD3"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="메모"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGrayCD" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorWhiteFA"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/ed_memo_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorWhiteFA"
+            android:clickable="false"
+            android:focusable="false"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColorHint="@color/colorGrayCD"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGrayCD" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorWhiteFA"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/ed_memo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhiteFA"
+            android:clickable="false"
+            android:focusable="false"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="20dp"
+            android:gravity="top"
+            android:textColorHint="@color/colorGrayCD"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorWhiteFA"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_back_memo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorWhiteOrange"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="뒤로"
+            android:textColor="@color/colorWhiteFA"
+            android:textColorHint="@color/colorGrayCD"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+</LinearLayout>

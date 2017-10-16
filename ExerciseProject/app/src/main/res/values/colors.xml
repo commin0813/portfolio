@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#C47B31</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- App Color-->
+    <color name="colorDarkBlue">#1E5A78</color>
+    <color name="colorWhiteBlue">#3193C4</color>
+    <color name="colorBrown">#785A1E</color>
+    <color name="colorDarkOrange">#C47B31</color>
+    <color name="colorGray78">#787878</color>
+    <color name="colorGray87">#878787</color>
+    <color name="colorGrayCD">#CDCDCD</color>
+    <color name="colorWhiteFA">#FAFAFA</color>
+    <color name="colorWhiteEE">#EEEEEE</color>
+
+    <!-- App Color 2-->
+    <color name="colorRed">#ff0000</color>
+    <color name="colorWhiteOrange">#ff8000</color>
+    <color name="colorYellow">#ffff00</color>
+    <color name="colorWhiteGreen">#bfff00</color>
+    <color name="colorOrange">#FF6F29</color>
+    <color name="colorGrayEE">#EEEEEE</color>
+    <color name="colorGrayD4">#D4D4D4</color>
+    <color name="colorGrayD3">#D3D3D3</color>
+    <color name="colorGray62">#626262</color>
+    <color name="colorGray45">#454545</color>
+    <color name="colorGray51">#515151</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorRed36">#FF3636</color>
+
+    <color name="today">#FF4081</color>
+    <color name="greyed_out">#c7c7c7</color>
+
+    <!-- calendar title color -->
+    <color name="summer">#44eebd82</color>
+    <color name="fall">#44d8d27e</color>
+    <color name="winter">#44a1c1da</color>
+    <color name="spring">#448da64b</color>
+
+</resources>

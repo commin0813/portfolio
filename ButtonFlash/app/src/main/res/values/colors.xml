@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- App Color-->
+    <color name="colorDarkBlue">#1E5A78</color>
+    <color name="colorWhiteBlue">#3193C4</color>
+    <color name="colorBrown">#785A1E</color>
+    <color name="colorDarkOrange">#C47B31</color>
+    <color name="colorGray78">#787878</color>
+    <color name="colorGray87">#878787</color>
+    <color name="colorGrayCD">#CDCDCD</color>
+    <color name="colorWhiteFA">#FAFAFA</color>
+    <color name="colorWhiteEE">#EEEEEE</color>
+</resources>

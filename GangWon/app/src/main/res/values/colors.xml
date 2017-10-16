@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- App Color-->
+    <color name="colorDarkBlue">#1E5A78</color>
+    <color name="colorWhiteBlue">#3193C4</color>
+    <color name="colorBrown">#785A1E</color>
+    <color name="colorDarkOrange">#C47B31</color>
+    <color name="colorGray78">#787878</color>
+    <color name="colorGray87">#878787</color>
+    <color name="colorGrayCD">#CDCDCD</color>
+    <color name="colorWhiteFA">#FAFAFA</color>
+    <color name="colorWhiteEE">#EEEEEE</color>
+
+    <!-- App Color 2-->
+    <color name="colorRed">#ff0000</color>
+    <color name="colorWhiteOrange">#ff8000</color>
+    <color name="colorYellow">#ffff00</color>
+    <color name="colorWhiteGreen">#bfff00</color>
+    <color name="colorOrange">#FF6F29</color>
+    <color name="colorGrayEE">#EEEEEE</color>
+    <color name="colorGrayD4">#D4D4D4</color>
+    <color name="colorGrayD3">#D3D3D3</color>
+    <color name="colorGray62">#626262</color>
+    <color name="colorGray45">#454545</color>
+    <color name="colorGray51">#515151</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorRed36">#FF3636</color>
+
+    <color name="today">#FF4081</color>
+    <color name="greyed_out">#c7c7c7</color>
+
+    <!-- shinhan -->
+    <color name="shinhanNaby">#17181d</color>
+    <color name="shinhanWhiteNaby">#25262b</color>
+    <color name="shinhanTopMenu">#292c35</color>
+    <color name="shinhantextDisalble">#7f8085</color>
+    <color name="shinhanbutton">#25b3dc</color>
+    <color name="shinhanWhitebutton">#5525b3dc</color>
+
+    <color name="shadow">#55000000</color>
+
+
+    <!-- background color -->
+    <color name="backBackDDC">#DDCAC8</color>
+    <color name="backBack34">#3498C8</color>
+    <color name="backBack84">#8498C8</color>
+    <color name="backBackCB">#CBA983</color>
+    <color name="backBack80">#806B53</color>
+    <color name="backBack83">#CBD183</color>
+    <color name="backBackA1">#A1D183</color>
+    <color name="backBack81">#818554</color>
+    <color name="backBackD1">#D1A484</color>
+    <color name="backBack85">#856854</color>
+    <color name="backBackC3">#C3E6C6</color>
+    <color name="backBackDD">#DD732F</color>
+    <color name="backBackE8">#E8DCC5</color>
+</resources>

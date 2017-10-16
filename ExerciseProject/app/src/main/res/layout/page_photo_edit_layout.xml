@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhiteFA"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:background="@color/colorOrange"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:weightSum="10">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:text="사진편집"-->
+            <!--android:textColor="@color/colorWhiteFA"-->
+            <!--android:textSize="25sp"-->
+            <!--android:textStyle="bold" />-->
+    <!--</LinearLayout>-->
+
+
+    <LinearLayout
+        android:id="@+id/ll_edit_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical"
+        android:background="@color/colorDarkBlue"
+        >
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_add_text"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorOrange"
+                android:text="글자넣기"
+                android:textColor="@color/colorWhiteFA" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorGrayCD" />
+
+            <Button
+                android:id="@+id/btn_add_line"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorOrange"
+                android:text="그리기"
+                android:textColor="@color/colorWhiteFA" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorGrayCD" />
+
+            <Button
+                android:id="@+id/btn_save_edit"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorOrange"
+                android:text="저장"
+                android:textColor="@color/colorWhiteFA" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

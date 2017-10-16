@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhiteFA">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <TextView
+            android:id="@+id/tv_game_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="30dp"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:singleLine="true"
+            android:text="화면을 연타 하시면 게이지가 줄어듭니다. 다줄어들면 다시 생깁니다. 계속 때리세요"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+</LinearLayout>
